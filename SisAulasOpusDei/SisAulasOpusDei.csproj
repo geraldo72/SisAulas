@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E06B89AB-0179-482B-A727-F1A1D2909CDE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SisAulasOpusDei</RootNamespace>
+    <AssemblyName>SisAulasOpusDei</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmAssociarTurmas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssociarTurmas.Designer.cs">
+      <DependentUpon>frmAssociarTurmas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clsBD.cs" />
+    <Compile Include="frmTurmasList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTurmasList.Designer.cs">
+      <DependentUpon>frmTurmasList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils.cs" />
+    <Compile Include="frmAssociarMateria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAssociarMateria.Designer.cs">
+      <DependentUpon>frmAssociarMateria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAtribuiNota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAtribuiNota.Designer.cs">
+      <DependentUpon>frmAtribuiNota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAutenticacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAutenticacao.Designer.cs">
+      <DependentUpon>frmAutenticacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmColaboradoresList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColaboradoresList.Designer.cs">
+      <DependentUpon>frmColaboradoresList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmColaboradoresManut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmColaboradoresManut.Designer.cs">
+      <DependentUpon>frmColaboradoresManut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMateriasList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMateriasList.Designer.cs">
+      <DependentUpon>frmMateriasList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMateriasManut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMateriasManut.Designer.cs">
+      <DependentUpon>frmMateriasManut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotas.Designer.cs">
+      <DependentUpon>frmNotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportAta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportAta.Designer.cs">
+      <DependentUpon>frmReportAta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SisAulasPiteDataSet.cs">
+      <DependentUpon>SisAulasPiteDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="SisAulasPiteDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SisAulasPiteDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SisAulasPiteDataSetProcs.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SisAulasPiteDataSetProcs.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmAssociarTurmas.resx">
+      <DependentUpon>frmAssociarTurmas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAssociarMateria.resx">
+      <DependentUpon>frmAssociarMateria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAtribuiNota.resx">
+      <DependentUpon>frmAtribuiNota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAutenticacao.resx">
+      <DependentUpon>frmAutenticacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColaboradoresList.resx">
+      <DependentUpon>frmColaboradoresList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmColaboradoresManut.resx">
+      <DependentUpon>frmColaboradoresManut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTurmasList.resx">
+      <DependentUpon>frmTurmasList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMateriasList.resx">
+      <DependentUpon>frmMateriasList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMateriasManut.resx">
+      <DependentUpon>frmMateriasManut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotas.resx">
+      <DependentUpon>frmNotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportAta.resx">
+      <DependentUpon>frmReportAta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\ata.docx" />
+    <None Include="Resources\CurriculoPadrao.docx" />
+    <None Include="SisAulasPiteDataSet.xsc">
+      <DependentUpon>SisAulasPiteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SisAulasPiteDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SisAulasPiteDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SisAulasPiteDataSet.xss">
+      <DependentUpon>SisAulasPiteDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SisAulasPiteDataSetProcs.xsc">
+      <DependentUpon>SisAulasPiteDataSetProcs.xsd</DependentUpon>
+    </None>
+    <None Include="SisAulasPiteDataSetProcs.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SisAulasPiteDataSetProcs.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SisAulasPiteDataSetProcs.xss">
+      <DependentUpon>SisAulasPiteDataSetProcs.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_stat_on.png" />
+    <None Include="Resources\ico_stat_off.png" />
+    <None Include="Resources\ico_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_optional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_blank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sao-jose-maria-escriva.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\ico_add.png" />
+    <None Include="Resources\ico_edit_nota.png" />
+    <Content Include="Resources\ico_notas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>5</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

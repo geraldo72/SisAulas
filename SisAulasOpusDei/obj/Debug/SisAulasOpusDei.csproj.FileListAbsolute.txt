@@ -1,0 +1,35 @@
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.exe.config
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.csprojResolveAssemblyReference.cache
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.Properties.Resources.resources
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.csproj.GenerateResource.Cache
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.exe
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.pdb
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.exe
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.pdb
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmAutenticacao.resources
+C:\Users\Paulo M Ramos\Documents\Projetos\Sistema de Cadastro\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmColaboradores.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.csproj.ResolveComReference.cache
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmAssociarTurmas.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmAssociarMateria.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmAtribuiNota.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmAutenticacao.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmColaboradoresList.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmColaboradoresManut.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmMateriasList.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmMateriasManut.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmMenu.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmNotas.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmReportAta.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.Properties.Resources.resources
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.csproj.GenerateResource.Cache
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.exe.config
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.exe
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.pdb
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.exe
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.pdb
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.csprojResolveAssemblyReference.cache
+C:\SisAulas\Codigo Fonte\Aplicacao\Source\App\SisAulasOpusDei\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.frmTurmasList.resources
+C:\Users\geraldo72\Source\Repos\SisAulas2\SisAulasOpusDei\bin\Debug\SisAulasOpusDei.exe.config
+C:\Users\geraldo72\Source\Repos\SisAulas2\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.csproj.ResolveComReference.cache
+C:\Users\geraldo72\Source\Repos\SisAulas2\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.exe
+C:\Users\geraldo72\Source\Repos\SisAulas2\SisAulasOpusDei\obj\Debug\SisAulasOpusDei.pdb
