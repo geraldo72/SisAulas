@@ -21,7 +21,7 @@ namespace SisAulasOpusDei
         private string _strAnoMateria = "";
         
         private frmReportAta _frmReportAta;
-        //Teste par   
+        //Teste para comit
         public frmAssociarTurmas()
         {
             InitializeComponent();
